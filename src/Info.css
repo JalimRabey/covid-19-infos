@@ -1,0 +1,64 @@
+.Info {
+	background: #171d28;
+	color: white;
+	width: 30rem;
+	height: 25rem;
+	border-radius: 0 2rem;
+}
+
+.Info-title {
+	margin-top: 3rem;
+	text-align: center;
+	padding-top: 0.5rem;
+}
+
+.Info-title img {
+	width: 3rem;
+}
+
+.Info-container {
+	width: 80%;
+	height: 80%;
+	margin: auto;
+}
+
+.Info-buttons{
+	margin-top: 2rem;
+	display: flex;
+	justify-content: space-between;
+}
+
+.Info-buttons button {
+	border: none;
+	outline: none;
+	background: #e01b5c;
+	width: 5rem;
+	height: 1.5rem;
+	border-radius: 0.3rem;
+	transition: 0.3s ease;
+	font-weight: bold;
+	color: black;
+	cursor: pointer;
+}
+
+.Info-buttons button:hover {
+	opacity: 0.6;
+}
+
+.Info-container-line {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 2.5rem;
+}
+
+.Info-container-line img{
+	fill: white;
+	width: 1.5rem;
+	transition: 0.3s ease;
+	cursor: pointer;
+}
+
+.Info-container-line img:hover {
+	opacity: 0.6;
+}
